@@ -46,7 +46,7 @@ gulp.task('build:pug', () => {
       dot: true,
       allowEmpty: true
     })
-      .pipe(gulp.dest('dist'))
+      .pipe(gulp.dest('dist/resources'))
   });
   gulp.task('build', gulp.parallel(
     'build:pug',
